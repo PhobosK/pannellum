@@ -742,7 +742,7 @@ function processOptions() {
                 break;
             
             case 'author':
-                document.getElementById('author_box').innerHTML = 'by ' + config[key];
+                document.getElementById('author_box').innerHTML = 'от ' + config[key];
                 document.getElementById('panorama_info').style.display = 'inline';
                 break;
                 
@@ -754,7 +754,7 @@ function processOptions() {
                 break;
             
             case 'fallback':
-                document.getElementById('nocanvas').innerHTML = '<p>Your browser does not support WebGL.<br><a href="' + config[key] + '" target="_blank">Click here to view this panorama in an alternative viewer.</a></p>';
+                document.getElementById('nocanvas').innerHTML = '<p>Вашият браузър не поддържа технологията <b>WebGL</b>.<br><a href="' + config[key] + '">Моля натиснете тук за да разгледате панорамата чрез друг метод.</a></p>';
                 break;
             
             case 'preview':
